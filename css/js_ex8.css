@@ -1,0 +1,78 @@
+body { text-align:center;}
+
+.wrap{
+  width: 336px; height: 476px; margin: 0 auto; padding: 14px;
+  text-align: left; border:solid 2px black; background-color: green;
+  align-items: center;
+}
+
+.cont_status{
+  width: 336px; height: 56px; margin-bottom: 14px;
+  display: flex; text-align: center; line-height: 56px;
+}
+
+.result{
+  width: 126px; height: 56px;
+  background-color: black; color:white;
+}
+
+.player{
+  width: 56px; height: 56px; margin: 0 14px;
+  background-color: lightgrey;
+}
+
+.cont_ikasama{
+  width: 126px; height: 56px;
+  display: flex; text-align: center;
+  flex-wrap: wrap;
+}
+
+.ikasama_rate{
+  width: 56px; height: 14px;
+  font-size: 55%; font-weight: 1000px; line-height: 14px; background-color: white;
+}
+
+.ikasama_in { width: 52px; height: 9px; vertical-align: middle;}
+
+.ikasama_err{ font-size: 80%; color: red}
+
+.total_result{
+  width: 42px; height: 14px; background-color: white;
+  font-size: 80%; line-height: 14px;
+ }
+
+.font{
+  width: 14px; font-size: 80%; font-weight: 1000px; line-height: 14px;
+}
+
+.child_status{
+  flex-direction: row-reverse; align-items: flex-end;
+}
+
+.hand{
+  width: 332px; height: 38px; margin-bottom: 14px;
+  border:solid 2px white; background-color: orange;
+  text-align: center; line-height: 42px; color: midnightblue;
+  font-size: 150%; font-weight: 1500px; font-family:"UD デジタル 教科書体 N-B";
+}
+
+.cont_cards{
+  width: 336px; height: 84px; margin-bottom: 14px;
+  text-align: left;
+  display: flex;
+}
+
+.card{
+  width: 52px; height: 80px; margin-right: 14px;
+   border:solid 2px white;
+}
+
+.button{
+  width: 80px; height: 28px; margin: auto; margin-bottom: 14px;
+  text-align: left; background-color: lightgrey;
+  text-align: center; vertical-align: middle; font-weight:1000; font-size: 55%;
+}
+
+.margin_rem{
+  margin: 0px;
+}

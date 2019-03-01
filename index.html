@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang = "ja">
+  <head>
+    <meta charset = "utf-8">
+    <title>JavaScriptの学習</title>
+    <link rel="stylesheet" href="css/js_ex8.css">
+  </head>
+  <body>
+    <div class="wrap">
+
+      <!-- 親 -->
+      <div class="cont_status">
+        <div class="result" id="result_p_id"></div>
+        <div class="player" id="p_icon_id">
+          <img src="images/hakase.jpg" width="56px" height="56px">
+        </div>
+        <div class="cont_ikasama">
+          <div class="ikasama_rate">1</div>
+          <div class="font"> / </div>
+          <div class="font">
+            <form><input style="text" class="ikasama_in" id="ikasama_id"></form>
+          </div>
+          <div class="ikasama_err" id="ikasama_err_id"></div>
+        </div>
+      </div>
+
+      <div class="hand" id="handP_id"></div>
+
+      <div class="cont_cards">
+        <div class="card" id="cardP1_id"></div>
+        <div class="card" id="cardP2_id"></div>
+        <div class="card" id="cardP3_id"></div>
+        <div class="card" id="cardP4_id"></div>
+        <div class="card margin_rem" id="cardP5_id"></div>
+      </div>
+
+      <!-- ボタン -->
+      <div align="center">
+        <button type="button" class="button" id="button_id">ゲームスタート</button>
+      </div>
+
+      <!-- 子 -->
+      <div class="hand" id="handC_id"></div>
+
+      <div class="cont_cards">
+        <div class="card" id="cardC1_id"></div>
+        <div class="card" id="cardC2_id"></div>
+        <div class="card" id="cardC3_id"></div>
+        <div class="card" id="cardC4_id"></div>
+        <div class="card margin_rem" id="cardC5_id"></div>
+      </div>
+
+      <div class="cont_status margin_rem child_status">
+        <div class="result" id="result_c_id"></div>
+        <div class="player">
+          <img src="images/azarashi.png" width="56px" height="56px">
+        </div>
+        <div class="font">敗</div>
+        <div class="total_result" id="total_lose_id">0</div>
+        <div class="font">　</div>
+        <div class="font">勝</div>
+        <div class="total_result" id="total_win_id">0</div>
+      </div>
+
+    </div>
+
+
+
+    <script type="text/javascript" src="./js/js_ex8.js"></script>
+
+  </body>
+</html>
